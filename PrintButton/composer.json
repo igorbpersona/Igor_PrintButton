@@ -1,0 +1,31 @@
+{
+    "name": "igor/module-print-button",
+    "description": "A module that adds a print2 button to invoice details page.",
+    "authors": [
+        {
+            "name": "Igor Persona",
+            "homepage": "https://github.com/igorbpersona/"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "magento/framework": "102.0.*",
+        "magento/module-backend": "101.0.*",
+        "magento/module-config": "101.1.*",
+        "magento/module-sales": "102.0.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Igor\\PrintButton\\": ""
+        }
+    },
+    "version": "1.0.0"
+}

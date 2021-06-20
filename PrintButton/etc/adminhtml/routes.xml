@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package   Igor_PrintButton
+ * @version   1.0.0
+ * @author    Igor Persona
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="igor" frontName="igor">
+            <module name="Igor_PrintButton" />
+        </route>
+    </router>
+</config>

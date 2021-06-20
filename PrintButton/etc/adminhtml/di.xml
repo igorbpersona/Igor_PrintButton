@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package   Igor_PrintButton
+ * @version   1.0.0
+ * @author    Igor Persona
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Backend\Block\Widget\Button\Toolbar">
+        <plugin name="custom_print_button_on_invoice_view" type="Igor\PrintButton\Plugin\Block\Widget\Button\ToolbarPlugin" />
+    </type>
+</config>
